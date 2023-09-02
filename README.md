@@ -66,5 +66,3 @@ The Martian Aerospace Agency, after rigorous years of testing and selection, has
 As the Martian horizon beckons, KaseiCoin stands as a testament to human ingenuity and adaptability. This README serves as your guide in this interstellar financial journey. Safe travels, and may your KaseiCoins always shine bright!
 
 ---
-
-*Note: This README is a creative representation of the project. Ensure to follow the actual technical steps for implementation.*

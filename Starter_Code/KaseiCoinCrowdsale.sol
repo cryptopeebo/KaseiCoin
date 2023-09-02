@@ -49,3 +49,30 @@ contract KaseiCoinCrowdsaleDeployer {
     }
 }
 */
+
+
+
+
+
+pragma solidity ^0.5.0;
+
+import "./KaseiCoin.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/Crowdsale.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/emission/MintedCrowdsale.sol";
+
+// KaseiCoinCrowdsale contract definition
+contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale {
+    // Constructor for the KaseiCoinCrowdsale contract
+    constructor(
+        uint256 rate,           // rate in TKNbits
+        address payable wallet, // address where funds should be sent
+        KaseiCoin token         // the token
+    ) 
+        Crowdsale(rate, wallet, token) 
+        public {
+            // constructor can stay empty since the inherited contracts handle the necessary initializations.
+        }
+}
+
+// The KaseiCoinCrowdsaleDeployer contract is commented out, so we won't touch it for now.
+
