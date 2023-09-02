@@ -1,5 +1,5 @@
 # KaseiCoin: The Martian Cryptocurrency
-
+![Alt text](Images/Martian_Aerospace.jpeg)
 ## 🚀 Introduction
 
 In the vast expanse of the universe, as humanity takes its first steps on the red planet, a new era of financial systems emerges. Welcome to the Martian frontier, where KaseiCoin reigns supreme!
@@ -23,7 +23,7 @@ The Martian Aerospace Agency, after rigorous years of testing and selection, has
 ## 📂 Files
 
 - [Starter Code](#)
-
+![Alt text](Images/masp.jpeg)
 ## 🛠 Instructions
 
 ### 1. Crafting the KaseiCoin Token Contract
@@ -65,4 +65,5 @@ The Martian Aerospace Agency, after rigorous years of testing and selection, has
 
 As the Martian horizon beckons, KaseiCoin stands as a testament to human ingenuity and adaptability. This README serves as your guide in this interstellar financial journey. Safe travels, and may your KaseiCoins always shine bright!
 
+![Alt text](Images/maspp.jpeg)
 ---
